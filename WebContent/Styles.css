@@ -1,0 +1,28 @@
+/* @CHARSET "ISO-8859-1";
+
+body {
+	activate background color and other style properties in all jsp files which contain the "Style.css" reference
+	background-color: white;
+	font-family:verdana;
+	padding-left: 2px;
+} 
+
+form.reg_form {
+	padding: 2px;		
+}
+
+input {
+	position: fixed;
+   height:2%;
+   margin-bottom: 5px;
+   margin-top: 5px;
+   padding: 6px;
+   width: 7%; 
+}
+
+input.button {
+	width: 5%;
+   height:2%; 
+   padding: 2px;
+   background-color: #7b9efb;
+}    */

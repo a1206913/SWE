@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>header.jsp</welcome-file>
+    <welcome-file>footer.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+<!-- <web-app>
+	<servlet>
+        <servlet-name>RegistrierungsServlet</servlet-name>
+        <servlet-class>RegistrierungsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistrierungsServlet</servlet-name>
+        <url-pattern>/register_benutzer</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>RegistrierungsServlet</servlet-name>
+        <url-pattern>/register_fluggesellschaft</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>RegistrierungsServlet</servlet-name>
+        <url-pattern>/register_statistiker</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>swe.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/einloggen</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>FlugeintragenServlet</servlet-name>
+        <servlet-class>swe.servlets.FlugeintragenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FlugeintragenServlet</servlet-name>
+        <url-pattern>/flugcreate</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>FlugbuchenServlet</servlet-name>
+        <servlet-class>swe.servlets.FlugbuchenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FlugbuchenServlet</servlet-name>
+        <url-pattern>/flugbuchen</url-pattern>
+    </servlet-mapping>
+</web-app> -->
